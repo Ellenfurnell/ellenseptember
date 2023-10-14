@@ -13,4 +13,4 @@ Contact me:
     <li>LinkedIn: <a href='https://www.linkedin.com/in/ellen-furnell-5589a1292/'>Ellen Furnell</a></li>
 </ul>
 
-<img src='logo-color.png' alt='My logo, the capital letters E and F in dark blue serif font' width='20px' height='20px'>
+<img src='logocolor.png' alt='My logo, the capital letters E and F in dark blue serif font' width='20px' height='20px'>
