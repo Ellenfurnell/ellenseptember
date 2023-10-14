@@ -1,3 +1,11 @@
+---
+layout: layouts/base.njk
+eleventyNavigation:
+  key: Contact
+  order: 4
+---
+# Contact
+
 Contact me:
 <ul>
     <li>By email: ellenfurnell82@yahoo.com</li>
