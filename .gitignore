@@ -1,5 +1,3 @@
 _site/
 node_modules/
 package-lock.json
-content/blog/firstpost.md
-content/contact.njk
