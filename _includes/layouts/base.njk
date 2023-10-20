@@ -41,14 +41,21 @@
 			<a href="/" class="home-link">{{ metadata.title }}</a>
 
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-			<nav>
-                <h2 class="visually-hidden">Top level navigation menu</h2>
-                <ul class="nav">
-                {%- for entry in collections.all | eleventyNavigation %}
-                    <li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-                {%- endfor %}
-                </ul>
-            </nav>
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navigation</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href=“contact”>Contact</a>
+        <a class="nav-link" href=“about”>About</a>
+      </div>
+    </div>
+  </div>
+</nav>
 		</header>
 
 		<main id="skip">
