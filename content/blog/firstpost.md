@@ -6,3 +6,7 @@ tags:
   - number 2
 ---
 Hello World! This is my first post.
+
+<div class="alert alert-info" role="alert">
+  A simple alert!
+</div>
