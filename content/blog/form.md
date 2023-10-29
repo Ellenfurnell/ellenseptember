@@ -17,12 +17,12 @@ tags:
 </style>
 <form action='#'>
     <label for="firstname">First Name *</label>
-    <input type="text" id="firstname" name="firstname" required> <br>
+    <input type="text" id="firstname" name="firstname" required> <br> <br>
     <label for='surname'>Surname *</label> 
-    <input type='text' id='surname' name='surname' required> <br>
+    <input type='text' id='surname' name='surname' required> <br> <br>
     <label for="email">Email Address *</label>
-    <input type="email" id="email" name="email" required> <br>
+    <input type="email" id="email" name="email" required> <br> <br>
     <label for='message'>Please type your message here *</label>
-    <input type='text' id='message' name='message' required> <br>
+    <input type='text' id='message' name='message' required> <br> <br>
     <input type='submit' value='Submit'>
 </form>
