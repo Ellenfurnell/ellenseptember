@@ -5,8 +5,18 @@ date: 2023-10-14
 tags:
   - number 2
 ---
+<style>
+  message {
+    width: 200px;
+    height: 60px;
+  }
+  label {
+  font-family:Helvetica;
+  color: primary;
+  }
+</style>
 <form action='#'>
-    <label for="firstname">Firstname *</label>
+    <label for="firstname">First Name *</label>
     <input type="text" id="firstname" name="firstname" required> <br>
     <label for='surname'>Surname *</label> 
     <input type='text' id='surname' name='surname' required> <br>
