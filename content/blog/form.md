@@ -5,6 +5,7 @@ date: 2023-10-14
 tags:
   - number 2
 ---
+<head>
 <style>
   message {
     width: 200px;
@@ -15,7 +16,9 @@ tags:
   color: primary;
   }
 </style>
-<form action='#'>
+</head>
+<body>
+<form action="/action_page.php" method="get">
     <label for="firstname">First Name *</label>
     <input type="text" id="firstname" name="firstname" required> <br> <br>
     <label for='surname'>Surname *</label> 
@@ -26,3 +29,4 @@ tags:
     <input type='text' id='message' name='message' required> <br> <br>
     <input type='submit' value='Submit'>
 </form>
+</body>
