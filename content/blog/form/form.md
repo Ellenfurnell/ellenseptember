@@ -18,7 +18,7 @@ tags:
 </style>
 </head>
 <body>
-<form action="./action_page.php" method="post">
+<form name="form" method="POST" data-netlify="true">
     <label for="firstname">First Name *</label>
     <input type="text" id="firstname" name="firstname" required> <br> <br>
     <label for='surname'>Surname *</label> 
