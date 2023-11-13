@@ -1,7 +1,7 @@
 ---
 title: Pseudocode Task
 description: This is a post about the pseudocode task.
-date: 2023-10-14
+date: 2023-11-13
 tags:
   - projects
 ---
